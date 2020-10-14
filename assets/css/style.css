@@ -36,7 +36,7 @@ h4 {
   -webkit-background-size: cover;
   background-size: cover;
   /*для того, чтобы смотрелось симпатичнее*/
-  margin-bottom: -500px;
+  margin-bottom: 0px;
 }
 
 .intro__inner {
@@ -55,8 +55,8 @@ h4 {
 
 .main_info {
   width: 100%;
-  max-width: 1200px;
-  margin: 600px auto;
+  max-width: 1700px;
+  margin: 150px auto;
 }
 
 .main__title {
@@ -71,6 +71,40 @@ h4 {
   font-weight: normal;
   text-align: center;
   color: #333;
+}
+
+.main__container {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main__inner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 50px auto;
+}
+
+.image1 {
+  width: 500px;
+  height: 500px;
+  background: url("../images/1.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.image2 {
+  width: 500px;
+  height: 500px;
+  background: url("../images/2.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.image3 {
+  width: 500px;
+  height: 500px;
+  background: url("../images/3.jpg") center no-repeat;
+  background-size: cover;
 }
 
 .header {
