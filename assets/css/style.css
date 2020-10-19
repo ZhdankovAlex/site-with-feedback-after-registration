@@ -35,14 +35,12 @@ h4 {
   background: url("../images/photo1.jpg") left top no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
-  /*для того, чтобы смотрелось симпатичнее*/
-  margin-bottom: 0px;
 }
 
 .intro__inner {
   width: 100%;
   max-width: 1400px;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 
 .intro__title {
@@ -91,6 +89,7 @@ h4 {
   height: 500px;
   background: url("../images/1.jpg") center no-repeat;
   background-size: cover;
+  margin : 15px auto;
 }
 
 .image2 {
@@ -98,6 +97,7 @@ h4 {
   height: 500px;
   background: url("../images/2.jpg") center no-repeat;
   background-size: cover;
+  margin : 15px auto;
 }
 
 .image3 {
@@ -105,6 +105,7 @@ h4 {
   height: 500px;
   background: url("../images/3.jpg") center no-repeat;
   background-size: cover;
+  margin : 15px auto;
 }
 
 .header {
