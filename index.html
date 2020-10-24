@@ -3,6 +3,7 @@
   <head>
     <meta charset = "utf-8">
     <link rel = "stylesheet" href = "assets/css/style.css">
+    <link rel = "stylesheet" href = "assets/css/media.css">
     <link href = "https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700;800&display=swap" rel="stylesheet">
     <title>Test Task</title>
   </head>
@@ -10,13 +11,18 @@
 
     <header class = "header">
       <div class = "container">
-        <div class = "header__inner">
-          <a class = "nav__link" href = "#">home</a>
-          <a class = "nav__link" href = "#">about</a>
-          <div class = "header__logo"></div>
-          <a class = "nav__link" href = "#">service</a>
-          <a class = "nav__link" href = "#">contact</a>
-        </div>
+        <ul id = "nav">
+          <li><a class = "nav__link" href = "#">home</a></li>
+          <li><a class = "nav__link" href = "#">about</a></li>
+          <div id = "header__logo"></div>
+          <li><a class = "nav__link" href = "#">service</a></li>
+          <li><a class = "nav__link" href = "#">contact</a></li>
+          <div id = "burger">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+        </ul>
       </div>
     </header>
 

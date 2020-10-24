@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1100px), only screen and (max-device-width: 1100px) {
+  #nav > li {
+    opacity: 0;
+    /*хотел сделать плавное исчезание, но не получилось*/
+    display: none; /*проблема будет понятна, если закомментировать эту строку*/
+  }
+
+  #burger {
+    opacity: 1;
+    display: inline-block;
+  }
+
+  #nav:hover #burger {
+    opacity: 0;
+  }
+
+  #nav:hover {
+    opacity: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  #nav:hover > li {
+    display: block;
+    opacity: 1;
+  }
+
+  #nav:hover #header__logo {
+    display: none;
+  }
+}
